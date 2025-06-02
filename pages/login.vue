@@ -1,6 +1,6 @@
 <script setup>
 import LoginSideInfo from "@/components/auth/LoginSideInfo.vue";
-import LoginForm from "@/components/auth/loginForm.vue";
+import LoginForm from "@/components/auth/LoginForm.vue";
 </script>
 
 <template>
