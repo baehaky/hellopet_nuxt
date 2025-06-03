@@ -1,5 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: 'assets/images/9.png' },
+      ],
+    },
+  },
   runtimeConfig:{
     public:{
       supabaseUrl: process.env.NUXT_PUBLIC_SUPABASE_URL,
