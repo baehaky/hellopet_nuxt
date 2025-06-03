@@ -1,7 +1,7 @@
 <template>
   <section class="bg-[#FF8095] text-white py-12 text-center">
     <h2 class="text-3xl font-bold mb-10">Tentang Kami</h2>
-    <div class="flex justify-center mb-6 px-15 gap-x-10">
+    <div class="flex justify-center mb-6 px-10 md:px-15 gap-x-10 md:flex-row flex-col items-center">
       <img
         src="@/public/assets/images/9.png"
         alt="HelloPet Logo"

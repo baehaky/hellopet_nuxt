@@ -1,11 +1,11 @@
 <script setup></script>
 
 <template>
-  <section class="bg-[#FCFF82] py-12 px-6 md:px-16">
-    <div class="flex justify-evenly">
+  <section class="bg-[#FCFF82] py-12 ">
+    <div class="flex justify-evenly md:flex-row flex-col items-center">
       <div class="flex flex-col justify-center">
         <h3 class="text-3xl font-bold text-[#16BDCA] mb-2 text-center">Visi</h3>
-        <div class="bg-[#16BDCA] w-[450px] p-5 rounded-md">
+        <div class="bg-[#16BDCA] w-[350px] md:w-[400px] p-5 rounded-md">
           <p class="text-white text-justify">
             Menjadi platform terdepan yang menyediakan layanan kesehatan dan
             perawatan hewan peliharaan secara terpadu, mudah diakses, dan
@@ -22,7 +22,7 @@
       </div>
       <div class="flex flex-col justify-center">
         <h3 class="text-3xl font-bold text-[#16BDCA] text-center mb-2">Misi</h3>
-        <div class="bg-[#16BDCA] w-[450px] p-5 rounded-md py-8">
+        <div class="bg-[#16BDCA] w-[350px] md:w-[400px] p-5 rounded-md py-8">
           <ol class="list-decimal list-inside text-justify text-white">
             <li>
               Memberikan layanan konsultasi dan edukasi untuk meningkatkan

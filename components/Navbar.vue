@@ -15,14 +15,14 @@ const navItems = computed(() => {
   return authStore.isLoggedIn
     ? [
         { name: "Beranda", path: "/" },
-        { name: "Informasi", path: "informasi" },
-        { name: "Tentang Kami", path: "tentang-kami" },
-        { name: "List Grooming", path: "listgrooming" },
+        { name: "Informasi", path: "/informasi" },
+        { name: "Tentang Kami", path: "/tentang-kami" },
+        { name: "List Grooming", path: "/listgrooming" },
       ]
     : [
         { name: "Beranda", path: "/" },
-        { name: "Informasi", path: "informasi" },
-        { name: "Tentang Kami", path: "tentang-kami" },
+        { name: "Informasi", path: "/informasi" },
+        { name: "Tentang Kami", path: "/tentang-kami" },
       ];
 });
 
